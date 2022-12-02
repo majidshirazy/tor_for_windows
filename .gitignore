@@ -6,5 +6,3 @@ Data/fingerprint
 Data/fingerprint-ed25519
 Data/hashed-fingerprint
 Data/unverified-microdesc-consensus
-Log/notice.txt
-Log/debug.txt

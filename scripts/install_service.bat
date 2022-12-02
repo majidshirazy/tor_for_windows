@@ -12,7 +12,7 @@ EXIT
 sc stop Tor
 sc delete Tor
 
-CD %~dp0\..
+CD /d %~dp0\..
 IF EXIST "%PROGRAMDATA%\TOR" DEL /S /Q "%PROGRAMDATA%\TOR"
 MKDIR "%PROGRAMDATA%\TOR"
 XCOPY /EY "*" "%PROGRAMDATA%\TOR\"

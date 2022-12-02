@@ -7,8 +7,8 @@ SOCKSPolicy reject *
 DataDirectory C:\ProgramData\Tor\data
 Log notice stdout
 # Log debug stderr
-Log notice file C:\ProgramData\Tor\Log\notice.log
-#Log debug file C:\ProgramData\Tor\Log\debug.log
+Log notice file C:\ProgramData\Tor\Log\notice.txt
+#Log debug file C:\ProgramData\Tor\Log\debug.txt
 #ExcludeNodes {de}, {by}, {ua}, {kz}, {us}
 # ExitNodes {us}
 # StrictNodes 1
